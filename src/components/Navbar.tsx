@@ -100,7 +100,7 @@ const Navbar = () => {
           <div className="relative">
             <button
               onClick={toggleDropdown}
-              className={`flex items-center ${
+              className={`flex items-center cursor-pointer ${
                 location.pathname.startsWith("/services")
                   ? "text-gray-900 font-semibold"
                   : "text-white"
