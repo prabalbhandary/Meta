@@ -20,7 +20,7 @@ const Navbar = () => {
   const toggleDropdown = () => setIsOpen(!isOpen);
   const toggleMobileMenu = () => setMenuOpen(!menuOpen);
 
-  const isActive = (path) => location.pathname === path;
+  const isActive = (path: string) => location.pathname === path;
 
   const servicesDropDown = [
     {
